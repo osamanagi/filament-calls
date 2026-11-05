@@ -10,11 +10,11 @@ use Filament\Support\Facades\FilamentAsset;
 use Filament\Support\Facades\FilamentIcon;
 use Illuminate\Filesystem\Filesystem;
 use Livewire\Features\SupportTesting\Testable;
+use Osamanagi\FilamentCalls\Commands\FilamentCallsCommand;
+use Osamanagi\FilamentCalls\Testing\TestsFilamentCalls;
 use Spatie\LaravelPackageTools\Commands\InstallCommand;
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
-use Osamanagi\FilamentCalls\Commands\FilamentCallsCommand;
-use Osamanagi\FilamentCalls\Testing\TestsFilamentCalls;
 
 class FilamentCallsServiceProvider extends PackageServiceProvider
 {
